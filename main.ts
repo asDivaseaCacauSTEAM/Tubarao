@@ -1,1 +1,2 @@
-let marinheiro2 = sprites.create(assets.image`marinheiro2`, SpriteKind.Player)
+tiles.setCurrentTilemap(tilemap`level`)
+let mySprite = sprites.create(assets.image`marinheiro`, SpriteKind.Player)
